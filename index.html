@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    
+    <title>Circulos</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos/styles.css" >
+</head>
+
+<body>
+
+    <header>
+
+        <div class="ancho">
+
+            <div class="logo">
+                <a href="index.html">
+                    <p>NombreDeLaEmpresa</p>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div id="linea-negra"></div>
+        <h1><span>Titulo</span></h1>
+        <div id="linea-negra2"></div>
+
+        <h2 class="encabezado">Primer encabezado</h2>
+        <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, sint illum. At laborum suscipit quidem saepe architecto eius maiores est pariatur animi sit, ratione ducimus, laboriosam tempore nostrum odit in soluta porro beatae dignissimos deserunt odio cupiditate explicabo? Facere, obcaecati? Labore placeat a, atque veniam, ut odio dicta aperiam possimus harum voluptate assumenda quae doloribus nemo earum. Officia nisi possimus accusamus quae eos, vero tempora eius impedit, at officiis sunt dolor, velit debitis recusandae odit esse ex. Animi ea dolores assumenda nisi doloremque odio nulla explicabo officiis. Quasi, architecto. Ullam voluptate mollitia officia ex. Repellendus error placeat neque beatae doloribus?
+        </p>
+
+        <!-- CANVAS -->
+        <h2 class="encabezado">Efecto de lluvia</h2>
+        <p class="paragraph">Intensidad: <span id="n_gotas">150 gotas</span></p>
+        <div class="slide-container">
+            <input type="range" min="0" max="300" value="150" class="slider" id="intensidad_lluvia">
+        </div>
+        <div class="canvas-wrapper">
+            <canvas id="canvas_1" width="1200" height="500" style="border:1px solid black"></canvas>
+        </div>
+
+        <h2 class="encabezado">Efecto de círculos que colisionan con los bordes</h2>
+        <form action="" class="ajustes_circulo" id="color_selector_circ">
+            <label for="colores">Elige un color:</label>
+            <select name="colores" id="colores_circ">
+              <option value="negro">Negro</option>
+              <option value="multicolor">Multicolor</option>
+            </select>
+            <input type="button" value="Aplicar" id="btn_circ_color">
+        </form>
+        <div class="canvas-wrapper">
+            <canvas id="canvas_2" width="1200" height="500" style="border:1px solid black"></canvas>
+        </div>
+    </main>
+
+    <script src="scripts/script_lluvia.js"></script>
+    <script src="scripts/script_circulos.js"></script>
+</body>
+</html>

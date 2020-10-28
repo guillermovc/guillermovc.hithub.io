@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+}
+
+header {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ancho {
+    width: 80%;
+    height: 50px;
+    background: red;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    height: 50px;
+    background: rgb(0, 0, 0);;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+.logo a img {
+    max-height: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+nav {
+    width: 70%;
+    height: 50px;
+    background: rgb(0, 0, 0);;
+    float: left;
+    text-align: right;
+    line-height: 50px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 25px;
+}
+
+nav ul li a:hover {
+    background: rgb(50, 50, 50);
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#linea-negra {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+#linea-negra2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+main h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+main h1 span {
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+.encabezado {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.paragraph {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.canvas-wrapper {
+    margin: 1.5em auto;
+}
+
+.ajustes_circulo {
+    margin-top: 15px;
+
+}
+
+.ajustes_circulo label {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ajustes_circulo input[type=button] {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-style: none;
+    margin-left: 5px;
+}
+
+select {
+    margin-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: lightgray;
+    color: black;
+}
+
+.slide-container {
+    max-width: 30%;
+}
+
+.slider {
+    width: 100%;
+    height: 20px;
+}
